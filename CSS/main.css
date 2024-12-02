@@ -1,0 +1,154 @@
+/* Home page */  
+.header{
+    width:100%;
+    height:60px;
+    background-color:rgb(42, 70, 91);
+
+}
+
+button{
+    background-color: white;
+    color:black;
+    border:none;
+    height:30px;
+    width:80px;
+    border-radius:9px;
+    font-weight:bold;
+    margin-right: 3px;  
+}
+.buttons{
+    text-align: right;
+    padding-top:15px;
+}
+button:hover{
+    cursor:pointer;
+    text-decoration: underline;
+}
+main{
+
+    background-image:url(/Assets/img/background.jpg);
+    background-repeat:no-repeat;
+    background-size: 100%,cover;
+    margin-top:50px;
+    border-style: solid;
+    border-color:rgb(0, 255, 255);        
+    border-radius: 30px;
+    
+}
+
+
+
+.main-intro{
+    display:inline-block;
+    margin-right:200px ;
+    vertical-align:bottom;
+}
+
+.main-intro h1 {
+    color:white;
+    font-size:18px;
+    line-height:100px;
+    padding-left: 10px;
+    margin-bottom: 0;
+    
+}
+.main-intro h2{
+    color:rgb(234, 27, 61);
+    line-height: 5px;
+    font-size: 40px;
+    padding-left: 20px;
+    top: 300px;
+    margin-top: 0;
+}
+.main-intro h3{
+    color:yellow;
+    line-height: 2px;
+    font-size: 20px;
+    margin-top: 50px;
+    padding-left: 20px;
+    
+}
+.main-intro h4{
+    color:white;
+    line-height: 2px;
+    font-size:20px;
+    padding-left: 20px;
+    margin-bottom: 30px;
+
+}
+.main-intro p {
+    color:rgb(255, 255, 255);
+    font-size:18px;
+    padding-left: 20px;
+    text-align: justify;
+
+
+} 
+
+button.hire{
+    width:200px;
+    height:50px;
+    background-color:red;
+    font-weight:bold;
+    border-radius:9px;
+    font-size:20px;
+    padding-left: 0px;
+    margin-top: 60px;
+    margin-bottom:20px;
+    
+}
+.hire:hover{
+    background-color:rgb(42, 70, 91);
+    color: white;
+
+}
+.hireme{
+    margin-left: 20px;
+}
+.button:active{
+    background-color: blue;
+    color:white;
+    text-decoration: underline;
+}
+ /* Mobile (Portrait) */
+ @media only screen and (max-width: 480px) {
+    /* Styles for mobile portrait */
+  }
+  
+  /* Mobile (Landscape) */
+  @media only screen and (min-width: 481px) and (max-width: 767px) {
+    /* Styles for mobile landscape */
+  }
+  
+  /* Tablet (Portrait) */
+  @media only screen and (min-width: 768px) and (max-width: 1024px) {
+    /* Styles for tablet portrait */
+  }
+  
+  /* Tablet (Landscape) */
+  @media only screen and (min-width: 1025px) and (max-width: 1280px) {
+    /* Styles for tablet landscape */
+  }
+  
+  /* laptops */
+  @media only screen and (min-width: 1281px) and (max-width: 1440px) {
+    /* Styles for desktop */
+  }
+  
+  /* Desktops */
+  @media only screen and (min-width: 1441px) {
+    /* Styles for desktop */
+  }   
+
+
+
+
+    
+
+
+
+
+    
+
+
+ 
